@@ -1,0 +1,32 @@
+site_name: "Школьная система управления - Лабораторная работа 3"
+site_description: "Система для завуча школы на Django REST Framework"
+site_author: "Джаватов Ильяс"
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+    - scheme: slate
+      primary: teal
+      accent: lime
+
+nav:
+  - Главная: index.md
+  - Введение: introduction.md
+  - Установка: installation.md
+  - API Документация:
+    - Обзор API: api-reference/overview.md
+    - Аутентификация: api-reference/authentication.md
+    - Учителя: api-reference/teachers.md
+    - Ученики: api-reference/students.md
+    - Оценки: api-reference/grades.md
+    - Расписание: api-reference/schedule.md
+    - Отчеты: api-reference/reports.md
+  - Тестирование: testing.md
+  - Выводы: conclusions.md
+
+plugins:
+  - search
